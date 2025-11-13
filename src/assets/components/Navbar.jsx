@@ -7,14 +7,14 @@ const Navbar = () => {
   const [isSearchOpen, setSearchOpen] = useState(false);
 
   return (
-    <nav className="bg-white px-4 sm:px-6 lg:px-12 py-4 shadow-sm relative">
+    <nav className="bg-white px-4 sm:px-6 py-4 shadow-sm relative">
       {/* Desktop Navbar */}
       <div className="hidden md:flex items-center justify-between">
         <div className="text-3xl font-extrabold tracking-tight ml-20 text-gray-900">
           SHOP.CO
         </div>
 
-        <ul className="flex items-center space-x-10 text-sm text-gray-700 ml-10 mr-10">
+        <ul className="flex items-center space-x-7 text-sm text-gray-700">
           <li className="hover:text-black cursor-pointer flex items-center">
             Shop <FiChevronDown className="ml-1" />
           </li>
@@ -23,7 +23,7 @@ const Navbar = () => {
           <li className="hover:text-black cursor-pointer">Brands</li>
         </ul>
 
-        <div className="flex items-center space-x-7 w-full max-w-2xl">
+        <div className="flex items-center space-x-7 w-full max-w-2xl mr-20">
           <div className="relative flex-1">
             <FiSearch className="absolute left-3 top-3.5 text-gray-400 text-lg" />
             <input
@@ -40,7 +40,7 @@ const Navbar = () => {
       {/* Mobile Navbar */}
       <div className="flex items-center justify-between md:hidden">
         {/* Left - Hamburger + Logo */}
-        <div className="flex items-center ml-2 space-x-1">
+        <div className="flex items-center ml-2 space-x-5">
           <button
             onClick={() => setSidebarOpen(true)}
             className="text-2xl text-black focus:outline-none"
