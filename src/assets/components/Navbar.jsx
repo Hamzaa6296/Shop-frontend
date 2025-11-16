@@ -7,7 +7,7 @@ const Navbar = () => {
   const [isSearchOpen, setSearchOpen] = useState(false);
 
   return (
-    <nav className="bg-white px-4 sm:px-6 py-4 shadow-sm relative">
+    <nav className="fixed top-0 left-0 w-full bg-white px-4 sm:px-6 py-4 shadow-sm z-50">
       {/* Desktop Navbar */}
       <div className="hidden md:flex items-center justify-between">
         <div className="text-3xl font-extrabold tracking-tight ml-20 text-gray-900">
