@@ -14,7 +14,7 @@ const categories = [
 
 export default function BrowseByDressStyle() {
   return (
-    <section className="max-w-6xl mx-auto p-6 md:p-8 bg-gray-100 rounded-2xl">
+    <section className="max-w-7xl mx-auto p-6 md:p-8 bg-gray-100 rounded-2xl">
       <h2 className="text-center text-2xl md:text-4xl font-extrabold tracking-wide mb-8">
         BROWSE BY DRESS STYLE
       </h2>
@@ -39,7 +39,7 @@ export default function BrowseByDressStyle() {
               />
 
               {/* Label (top-left) */}
-              <span className="absolute top-4 left-4 text-lg md:text-xl font-semibold text-black">
+              <span className="absolute top-4 left-4 text-lg md:text-3xl font-semibold text-black">
                 {item.label}
               </span>
             </article>
