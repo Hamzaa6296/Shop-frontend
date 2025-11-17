@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import Heroimage from "../images/Heroimage.png";
 import vector from "../images/vector.png";
 
-//brand images
+//brand logo images
 import brand1 from "../images/versace.png";
 import brand2 from "../images/zara.png";
 import brand3 from "../images/gucci.png";
