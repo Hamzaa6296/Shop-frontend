@@ -7,6 +7,7 @@ import NewArrivals from './assets/components/Arrival.jsx'
 import Selling from './assets/components/Selling.jsx'
 import Browse from './assets/components/Browse.jsx'
 import Reviews from './assets/components/Reviews.jsx'
+import Footer from './assets/components/Footer.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -17,5 +18,6 @@ createRoot(document.getElementById('root')).render(
     <Selling/>
     <Browse/>
     <Reviews/>
+    <Footer/>
   </StrictMode>,
 )
